@@ -1,0 +1,21 @@
+{
+  "name": "identity-bearerauth",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230419.0",
+    "typescript": "^5.0.4",
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "@lucia-auth/adapter-session-unstorage": "^2.1.0",
+    "@lucia-auth/adapter-sqlite": "^2.0.0",
+    "hono": "^3.7.2",
+    "lucia": "^2.7.0",
+    "unstorage": "^1.9.0"
+  }
+}
